@@ -15,7 +15,7 @@ import br.ntconsult.model.teste.tiposDeDados.Vendedor;
 
 public class EntradaDeDados {
 
-	private String caminhoLeitura = "C:/Users/Admin/Desktop/Agi/in";
+	private String caminhoLeitura = "C:/data/in";
 
 	
 

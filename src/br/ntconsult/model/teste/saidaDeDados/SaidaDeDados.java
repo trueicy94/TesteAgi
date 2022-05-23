@@ -8,7 +8,7 @@ import br.ntconsult.model.teste.tiposDeDados.Relatorio;
 
 public class SaidaDeDados {
 
-	String caminhoRelatorio = "C:/Users/Admin/Desktop/Agi/out";
+	String caminhoRelatorio = "C:/data/out";
 
 	public SaidaDeDados() {
 	}
@@ -16,7 +16,7 @@ public class SaidaDeDados {
 
 	public void relatorio(Relatorio relatorio, String nomesArquivos) throws FileNotFoundException {
 		PrintStream ps = new PrintStream(new File(caminhoRelatorio + "/Relatorio -"+ nomesArquivos));
-		ps.println("Total de Funcionários:"+ relatorio.getQtdVendedores());
+		ps.println("Total de Funcionï¿½rios:"+ relatorio.getQtdVendedores());
 		ps.println("Total de Clientes:"+ relatorio.getQtdClientes());
 		ps.println("ID venda mais cara:"+ relatorio.getIdMaiorValorVenda());
 		ps.println("O pior vendedor:"+ relatorio.getNomeVendedor());
